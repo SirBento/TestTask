@@ -12,6 +12,7 @@ function SignIn() {
   const handleSubmit = (event) => {
     event.preventDefault();
     // TODO: Implement login logic here
+  
   };
 
 
@@ -21,7 +22,7 @@ function SignIn() {
     <div className={`${style.form}`}>
     <h2 className={`${style.headings}`}>Hugly Pay Developer Portal</h2>
 
-    <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+    <form onSubmit={handleSubmit} className="flex flex-col gap-6">
       <div className="form-group">
           <div className="relative">
               <input
@@ -60,8 +61,8 @@ function SignIn() {
       </div>
       
       <div className="form-group">
-      <label htmlFor="otp" className={`${style.otpTextOne}`}>
-                  Authenticator OTP:
+            <label htmlFor="otp" className={`${style.otpTextOne}`}>
+                  Authenticator OTP
                 </label>
           <div className="relative">
                 <input
@@ -74,13 +75,13 @@ function SignIn() {
                   onChange={(e) => setOtp(e.target.value)}
                 />
                 <label htmlFor="otp" className={`${style.inputLables}`}>
-                  One Time Password (OTP):
+                  One Time Password (OTP)
                 </label>
             </div>
 
             <label htmlFor="otp" className={`${style.otpTextTwo}`}>
-          Please check your authenticator for the OTP
-        </label>
+                Please check your authenticator for the OTP
+            </label>
       </div>
 
       
@@ -93,30 +94,37 @@ function SignIn() {
             id="remember"
             name="remember"
             value="remember"
-            className="mr-2  border-borderBlueSecond"
+            className="ml-3  border-borderBlueSecond "
            
           />
-          <span className= {`${style.samllText}`}>Remember me</span>
+          <span className= {`${style.samllText} ml-2`}>Remember me</span>
         </label>
       </div>
+
+
       <button
         type="submit"
-        className={`${style.authButtons}`}
-      >
+        className={`${style.authButtons}`}>
         Log in
       </button>
+
+
     </form>
+
+
     <div className="text-center mt-4">
       <a href="#"  className={`${style.forgotPass} mt-2`}>
         Forgot your password?
       </a>
       <p className={`${style.samllText} mt-2`}>
         Don't have an account?{' '}
-        <Link to ="/signup" className={`${style.links} ml-2`}>Sign up</Link>
+        <Link to ="/successful" className={`${style.links} ml-2`}>Sign up</Link>
+
+        {/***fix this to signup */}
       
       </p>
     </div>
-  </div>
+    </div>
 
 
     <Footer/>

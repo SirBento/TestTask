@@ -11,11 +11,12 @@ export default {
         primary: "#00162A",  
         secondary: "#08081B",
         textBlue: "#1E92FB",
-        textBlueSecond:"#035AA9",
+        textBlueSecond:"#035AA9", 
         textBlueThird: "#035DAF",
         borderBlue: "#02437D",
         borderBlueSecond:"#82C2FD",
         textRed: "#EC2125",
+        blue: "#7FB7F2"
 
       },
       fontFamily: {
