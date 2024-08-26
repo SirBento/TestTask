@@ -4,7 +4,7 @@ import style from '../../styles';
 
 const GettingStartedCard = ({ title, links, icon: Icon }) => {
   return (
-    <div className="shadow-lg rounded-lg p-7">
+    <div className="rounded-lg p-9">
 
     <div className="flex items-center mb-4 flex-row justify-center">
     <div className="w-full md:mr-2">
@@ -23,7 +23,7 @@ const GettingStartedCard = ({ title, links, icon: Icon }) => {
       {links.map((link, index) => (
         <a key={index} href={link.url} className={`${style.smallTextBlue}`}>
           {link.label}
-          <AiOutlineRight className="h-[20px] w-[20px] text-gray-400" />
+          <AiOutlineRight className="h-[20px] w-[20px] text-gray-400 hover:text-text" />
         </a>
       ))}
     </div>

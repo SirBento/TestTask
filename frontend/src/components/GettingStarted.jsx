@@ -10,7 +10,7 @@ const GettingStarted = () => {
    
       <div className="flex flex-col justify-center items-center">
 
-        <IoIosRocket color="#EC2125" width={40} height={40}/>
+        <IoIosRocket color="#EC2125" size={40}/>
         <span className={`${style.headings2}`}>Getting Started</span>
 
         <div className={`${style.samllText}  w-[300px] md:w-[420px] text-center`}>
@@ -18,7 +18,7 @@ const GettingStarted = () => {
         </div>
 
 
-        <div className="flex flex-col md:flex-row gap-[16px] mt-9">
+        <div className="flex flex-col md:flex-row gap-[18px] mt-9">
             {GettingStartedData.map((nav, index) => (
               <GettingStartedCard
                   key={index}
