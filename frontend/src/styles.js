@@ -11,17 +11,17 @@ form: "container mx-auto max-w-xl p-8 border border-borderBlue rounded-3xl shado
 
 inputs: "border border-borderBlue rounded-lg w-full py-4 px-3 text-white focus:outline-none focus:shadow-outline bg-primary hover:border-borderBlueSecond font-poppins text-[16px] h-[56px]",
 
-inputLables: "text-white font-poppins text-[11px] block text-left  absolute top-0 left-6 -mt-2 -ml-2 z-10 ",
+inputLables: "text-textWhite font-poppins text-[11px] block text-left  absolute top-0 left-6 -mt-2 -ml-2 z-10 ",
 
-samllText: "text-white font-poppins text-[16px]",
+samllText: "text-textWhite font-poppins text-[14px]",
 
 smallTextBlue: "text-textBlue font-poppins text-[14px]  hover:text-gray-600 flex justify-between items-center",
 
 lgText: "text-white font-poppins text-[18px] font-bold",
 
-otpTextOne: "text-white font-poppins text-[14px] block text-left ml-2 mb-4 font-bold",
+otpTextOne: "text-textWhite font-poppins text-[14px] block text-left ml-2 mb-4 font-bold",
 
-otpTextTwo: "text-white font-poppins text-[10px] block text-left ml-2 mt-2",
+otpTextTwo: "text-textWhite font-poppins text-[10px] block text-left ml-2 mt-2",
 
 linkHover: "hover:text-borderBlueSecond hover:underline",
 
@@ -35,7 +35,7 @@ forgotPass: "text-textBlueThird hover:underline text-sm font-poppins text-[16px]
 links: "text-textBlueThird hover:underline text-[14px]",
 
 
-footer: "text-white p-4 flex justify-between items-center border-t border-borderBlue text-[12px] h-[60px]  bottom-0 fixed w-5/6",
+footer: "text-textWhite p-4 flex justify-between items-center border-t border-borderBlue text-[12px] h-[60px]  bottom-0 fixed w-5/6",
 
 
 

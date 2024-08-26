@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
-import { Navbar,Hero,GettingStarted,Footer, SocialMediaLinks } from './components'
+import { Navbar,Testimonials,GettingStarted,Footer, SocialMediaLinks, Benefits,ReadyToGrow,UsesCases,Hero } from './components'
+
 
 function App() {
 
@@ -9,9 +10,13 @@ function App() {
       <Navbar/>
       <Hero/>
       <GettingStarted/>
+      <UsesCases/>
+      <Benefits/>
+      <Testimonials/>
+      <ReadyToGrow/>
       <SocialMediaLinks/>
       <Footer/>
-      
+       
     </div>
    
    

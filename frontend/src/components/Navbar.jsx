@@ -18,11 +18,11 @@ function Navbar() {
          <Link to="/signin" 
           variant="gradient"
           size="sm"
-          className="text-textBlueSecond lg:inline-block  bg-primary  border border-textBlue rounded-xl py-4 px-7 hover:bg-textBlue hover:text-white  font-poppins ]">
+          className="text-textBlueSecond lg:inline-block  bg-primary  border border-textBlue rounded-xl py-2 px-7 hover:bg-textBlue hover:text-white font-poppins h-[44px]">
 
-          <div className="flex items-center text-[14px]">
-          <span className="mr-2">Log In</span>
-            <FaUser size={24}/>
+          <div className="flex items-center justify-between flex-row font-poppins gap-2">
+          <span className="mr-2 text-[14px] text-center">Log In</span>
+            <FaUser size={21}/>
             
           </div>
           </Link>
@@ -33,10 +33,10 @@ function Navbar() {
          to="/signup" 
          variant="gradient"
          size="sm"
-         className="text-white lg:inline-block  bg-textBlue  border border-textBlue rounded-xl py-4 px-7 hover:bg-textBlueSecond hover:text-black  font-poppins  ml-3"> 
-            <div className="flex items-center font-poppins ">
-                <span className="ml-2">Sign Up</span>
-                <AiOutlineRight size={24}/>
+         className="text-white lg:inline-block  bg-textBlue  border border-textBlue rounded-xl py-2 px-7 hover:bg-textBlueSecond hover:text-black  font-poppins  h-[44px] ml-3"> 
+            <div className="flex items-center justify-between flex-row font-poppins ">
+                <span className="ml-2 text-[14px] mr-1">Sign Up</span>
+                <AiOutlineRight size={23}/>
                 
             </div>
          </Link>
