@@ -1,8 +1,12 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import Home from "./Home"
+import Hero from "./Hero"
 import GettingStarted from "./GettingStarted";
-import Hero from "./hero";
+import Testimonials from "./Testimonials";
 import SocialMediaLinks from "./SocialMediaLinks";
+import Benefits from "./Benefits";
+import UsesCases from "./UsesCases";
+import ReadyToGrow from "./ReadyToGrow";
 
-export {Navbar,Footer,Hero,Home,GettingStarted,SocialMediaLinks};
+
+export {Navbar,Hero,GettingStarted,UsesCases,Benefits, Testimonials, ReadyToGrow,SocialMediaLinks,Footer };
