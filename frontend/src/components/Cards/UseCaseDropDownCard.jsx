@@ -27,7 +27,7 @@ function UseCaseDropDownCard({ title, content, image, isExpanded, handleToggle }
             <img
               src={image}
               alt={title}
-              className="w-[300px] h-[180px] rounded-3xl"
+              className="w-[300px] h-[200px] rounded-3xl"
             />
           </div>
         </div>

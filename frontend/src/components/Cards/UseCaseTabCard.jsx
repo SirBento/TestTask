@@ -2,7 +2,7 @@ import React from 'react';
 
 const UseCaseTabCard = ({ image, title, content }) => {
   return (
-    <div className="border-b border-gray-700 last:border-b-0 pb-4">
+    <div className="">
       <img src={image} alt={title} className="w-full h-48 object-cover rounded-t-lg" />
       <div className="bg-primary rounded-b-lg p-4">
         <div className="flex justify-between items-center">
@@ -11,8 +11,8 @@ const UseCaseTabCard = ({ image, title, content }) => {
             <path d="M9 18l6-6-6-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </div>
-        <div className="border-b border-gray-700 pb-4 mb-4"></div>
-        <p className="text-sm font-light">{content}</p>
+        <div className="border-b border-borderBlue  pb-1 mb-2"></div>
+        <p className="text-textWhite font-poppins font-thin text-[14px] text-left">{content}</p>
       </div>
     </div>
   );

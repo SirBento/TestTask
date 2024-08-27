@@ -10,8 +10,8 @@ export default {
       colors: {
         primary: "#00162A", 
         secondary: "#08081B",
-        textWhite:"#E6F3FF", 
-        bgWhite:"#F2F8FF",
+        textWhite:"#E6F3FF",
+        bgWhite:"#F2F8FF", 
         textBlue: "#1E92FB",
         textBlueSecond:"#035AA9", 
         textBlueThird: "#035DAF",

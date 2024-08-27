@@ -4,17 +4,18 @@ import style from '../../styles';
 
 const GettingStartedCard = ({ title, links, icon: Icon }) => {
   return (
-    <div className="rounded-lg p-9">
+    <div className="rounded-lg py-2 px-4">
 
-    <div className="flex items-center mb-4 flex-row justify-center">
-    <div className="w-full md:mr-2">
-        <h3 className={`${style.samllText} border-b border-borderBlue pb-3`}>{title}</h3>
-    </div>
-    {Icon && (
-        <span className="-mt-3 md:-mt-3 md:ml-0 ml-2">
-        <Icon className="h-[20px] w-[20px] text-blue" />
+    <div className=" items-center mb-4">
+    <div className=" flex w-full md:mr-2 flex-row justify-center items-center  border-b border-borderBlue">
+        <h3 className={`${style.samllText} pb-3 text-start`}>{title}</h3>
+        {Icon && (
+        <span className="-mt-3 md:-mt-3 md:ml-2 ml-2">
+        <Icon className="h-[20px] w-[26px] text-blue ml-2" />
         </span>
     )}
+    </div>
+    
     </div>
 
 

@@ -15,7 +15,7 @@ function App() {
       <Testimonials/>
       <ReadyToGrow/>
       <SocialMediaLinks/>
-      <Footer/>
+      <Footer/> 
        
     </div>
    
