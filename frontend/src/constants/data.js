@@ -7,11 +7,14 @@ import { FaCirclePlay } from "react-icons/fa6";
 import { MdOutlineSupportAgent,MdSpaceDashboard } from "react-icons/md";
 import { PiChartLineUpBold } from "react-icons/pi";
 import React from "react";
-import seamlessIntegration from '../assets/chess.jpg';
-import realTimePayment from '../assets/chess.jpg';
-import enhancedPayment from '../assets/chess.jpg';
-import customizablePayment from '../assets/chess.jpg';
-import useCase from '../assets/chess.jpg';
+import seamlessIntegration from '../assets/feature1.png';
+import realTimePayment from '../assets/feature2.png';
+import enhancedPayment from '../assets/feature3.jpg';
+import customizablePayment from '../assets/feature4.jpg';
+import useCase1 from '../assets/useCase1.png';
+import useCase2 from '../assets/useCase2.png';
+import useCase3 from '../assets/useCase3.png';
+import useCase4 from '../assets/useCase4.png';
 
 const GettingStartedData = [
   {
@@ -157,35 +160,94 @@ const UsecaseDropdownData = [
 const useCaseData = {
   'Large Enterprise': [
     {
-      image: useCase,
+      image: useCase1,
       title: 'Use case i',
       content: 'Quisque fermentum blandit nunc ut dictum. Praesent vestibulum blandit risus quis sollicitudin.'
     },
-    // Add more use cases for 'Large Enterprise'
-  ],
-  'Small to Medium Business': [
     {
-      image: useCase,
+      image: useCase2,
       title: 'Use case ii',
       content: 'Quisque fermentum blandit nunc ut dictum. Praesent vestibulum blandit risus quis sollicitudin.'
     },
-    // Add more use cases for 'Small to Medium Business'
-  ],
-  'Merchant': [
     {
-      image: useCase,
+      image: useCase3,
       title: 'Use case iii',
       content: 'Quisque fermentum blandit nunc ut dictum. Praesent vestibulum blandit risus quis sollicitudin.'
     },
-    // Add more use cases for 'Merchant'
-  ],
-  'Individual': [
     {
-      image: useCase,
+      image: useCase4,
       title: 'Use case iv',
       content: 'Quisque fermentum blandit nunc ut dictum. Praesent vestibulum blandit risus quis sollicitudin.'
     },
-    // Add more use cases for 'Individual'
+
+  ],
+  'Small to Medium Business': [
+    {
+      image: useCase4,
+      title: 'Use case i',
+      content: 'Quisque fermentum blandit nunc ut dictum. Praesent vestibulum blandit risus quis sollicitudin.'
+    },
+    {
+      image: useCase3,
+      title: 'Use case ii',
+      content: 'Quisque fermentum blandit nunc ut dictum. Praesent vestibulum blandit risus quis sollicitudin.'
+    },
+    {
+      image: useCase2,
+      title: 'Use case iii',
+      content: 'Quisque fermentum blandit nunc ut dictum. Praesent vestibulum blandit risus quis sollicitudin.'
+    },
+    {
+      image: useCase1,
+      title: 'Use case iv',
+      content: 'Quisque fermentum blandit nunc ut dictum. Praesent vestibulum blandit risus quis sollicitudin.'
+    },
+  ],
+  'Merchant': [
+    {
+      image: useCase2,
+      title: 'Use case ii',
+      content: 'Quisque fermentum blandit nunc ut dictum. Praesent vestibulum blandit risus quis sollicitudin.'
+    },
+    {
+      image: useCase4,
+      title: 'Use case ii',
+      content: 'Quisque fermentum blandit nunc ut dictum. Praesent vestibulum blandit risus quis sollicitudin.'
+    },
+    {
+      image: useCase1,
+      title: 'Use case iii',
+      content: 'Quisque fermentum blandit nunc ut dictum. Praesent vestibulum blandit risus quis sollicitudin.'
+    },
+    {
+      image: useCase3,
+      title: 'Use case iv',
+      content: 'Quisque fermentum blandit nunc ut dictum. Praesent vestibulum blandit risus quis sollicitudin.'
+    },
+    
+  ],
+  'Individual': [
+    {
+      image: useCase3,
+      title: 'Use case i',
+      content: 'Quisque fermentum blandit nunc ut dictum. Praesent vestibulum blandit risus quis sollicitudin.'
+    },
+    {
+      image: useCase1,
+      title: 'Use case ii',
+      content: 'Quisque fermentum blandit nunc ut dictum. Praesent vestibulum blandit risus quis sollicitudin.'
+    },
+    {
+      image: useCase4,
+      title: 'Use case iii',
+      content: 'Quisque fermentum blandit nunc ut dictum. Praesent vestibulum blandit risus quis sollicitudin.'
+    },
+    {
+      image: useCase2,
+      title: 'Use case iv',
+      content: 'Quisque fermentum blandit nunc ut dictum. Praesent vestibulum blandit risus quis sollicitudin.'
+    },
+   
   ]
 };
 export { GettingStartedData, socialMediaData, testimonyData, BenefitsData, UsecaseDropdownData ,useCaseData};
