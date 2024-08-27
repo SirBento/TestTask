@@ -7,12 +7,12 @@ import style from '../styles';
 function Testimonials() {
   return (
 
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center mt-12">
     
     <ImQuotesRight color="#EC2125" size={45}/>
     <span className={`${style.headings2}`}>Customer Success Stories</span>
 
-        <div className={`${style.samllText}  w-[300px] md:w-[400px] text-center`}>
+        <div className={`${style.samllText}  w-[300px] md:w-[320px] text-center leading-7 mt-4`}>
            See what other companies have built using Hugly's APIs
         </div>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[16px]">
