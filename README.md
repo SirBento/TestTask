@@ -1,5 +1,3 @@
-
-```markdown
 # Hugly Developer Portal
 
 ## Overview
