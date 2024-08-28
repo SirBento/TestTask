@@ -99,6 +99,36 @@ npm run dev
 - Use the login form to access your developer portal.
 - Explore the features including profile management and settings.
 
+## API Endpoints
+### User Registration
+- **Endpoint**: `POST /api/v1/register` - **Request Body**:
+```json {
+"firstname": "John",
+"surname": "Doe",
+"email": "john.doe@example.com", "idNumber": "123456789",
+"gender": "Male",
+"dob": "1990-01-01",
+"phoneNumber": "123-456-7890", "physicalAddress": "123 Main St", "role": "User",
+"department": "IT",
+"companyName": "Example Corp", "companyAddress": "456 Business Rd", "password": "securePassword123"
+}
+```
+### User Login
+- **Endpoint**: `POST /api/v1/login` - **Request Body**:
+```json {
+"email": "john.doe@example.com",
+"password": "securePassword123" }
+```
+### Get User Profile
+- **Endpoint**: `GET /api/v1/user`
+- **Authentication**: Requires JWT in a cookie.
+### User Logout
+- **Endpoint**: `POST /api/v1/logout`
+- **Authentication**: Requires JWT in a cookie.
+## CORS Configuration
+The application is configured to allow CORS requests from specified origins, making it suitable for integration with frontend applications running on different ports.
+
+
 ## Contributing
 Contributions are welcome! To contribute:
 1. Fork the repository.
