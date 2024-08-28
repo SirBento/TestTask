@@ -6,7 +6,7 @@ import {BenefitsData} from '../constants/data';
 
 function Benefits() {
   return (
-    <div className="flex flex-col md:flex-row gap-[16px] mt-9">
+    <div className={`${style.benefitsWrapper}`}>
             {BenefitsData.map((nav, index) => (
               <BenefitsCard
                   key={index}

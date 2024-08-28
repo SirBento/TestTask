@@ -11,16 +11,16 @@ function UseCaseDropdownSection() {
   return (
     <div className="bg-transparent text-white p-8">
     <div>
-      {UsecaseDropdownData.map((feature, index) => (
-        <UseCaseDropDownCard
-          key={index}
-          title={feature.title}
-          image={feature.image}
-          content={feature.content}
-          isExpanded={expandedIndex === index}
-          handleToggle={() => handleToggle(index)}
-        />
-      ))}
+      
+        { UsecaseDropdownData.map((feature, index) => (
+            <UseCaseDropDownCard
+                key={index}
+                title={feature.title}
+                image={feature.image}
+                content={feature.content}
+                isExpanded={expandedIndex === index}
+                handleToggle={() => handleToggle(index)}/>
+        ))}
     </div>
   </div>
   )

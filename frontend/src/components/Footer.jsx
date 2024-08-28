@@ -3,11 +3,11 @@ import style from '../styles';
 
 function Footer() {
   return (
-    <footer className={`${style.footer}`}>
+    <footer className={`${style.footerWraper}`}>
        
-       <div className="max-w-[1280px] mx-auto w-full px-4 sm:px-6 md:px-8">
-        <div className="border-t border-borderBlue flex flex-col sm:flex-row justify-between items-center">
-          <div className="flex items-center space-x-4 mb-2 sm:mb-0 mt-5">
+       <div className={`${style.footerBorderWrapper}`}>
+        <div className={`${style.footerBorder}`}>
+          <div className={`${style.footerLinkWrapper}`}>
             <a href="#" className={`${style.linkHover}`}>Terms & Condition |</a>
             <a href="#" className={`${style.linkHover}`}>Privacy Policy |</a>
             <a href="#"className={`${style.linkHover}`} >Manage cookies </a>

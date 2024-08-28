@@ -15,41 +15,38 @@ function RegistrationSuccess() {
   
   
   return (
-    <>
-    <div className={`${style.form}`}>
+    <div className="grid grid-rows-[1fr_auto] min-h-screen">
+    
+    <div className={`${style.form} flex flex-col items-center justify-center`}>
 
-        <form className="flex flex-col gap-6">
+          <form className= {`${style.RistrationSucessContainer}`}>
 
-        <div className="flex flex-col items-center justify-center gap-1">
-        <Lottie options={defaultOptions} height={240} width={240} />
-        </div>
-            
+                    <div className= {`${style.RistrationSucessLottie}`}>
+                        <Lottie options={defaultOptions} height={240} width={240} />
+                    </div>
+                        
+                    <div className={`${style.RistrationSucessTextWrapper}`}>
 
+                          <span className= {`${style.lgText}`}>Success</span>
+                          <span className= {`${style.samllText}`}>You have successfully registered your account</span>
 
-        <div className="flex flex-col items-center justify-center gap-1">
-            <span className= {`${style.lgText}`}>Success</span>
-                <span className= {`${style.samllText}`}>You have successfully registered your account</span>
-          </div>
-           
-            
-              <Link
-              to="/signin" 
-              variant ="gradient"
-              size="sm"
-              type="submit"
-              className= {` ${style.successButton} mt-4`}>
-              Continue to My Account
-              </Link>
-
-
-        </form>
+                    </div>
+                    <Link
+                      to="/signin" 
+                      variant ="gradient"
+                      size="sm"
+                      type="submit"
+                      className= {` ${style.successButton} mt-8`}>
+                      Continue to My Account
+                    </Link>
+                    
+          </form>
 
     </div>
 
+  <Footer/>
 
-    <Footer/>
-
-    </>
+  </div>
   )
 }
 

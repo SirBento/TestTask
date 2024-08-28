@@ -5,18 +5,25 @@ import style from '../styles';
 
 const SocialMediaLinks = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6 mt-10 mb-20 justify-center items-center">
-      {socialMediaData.map((data, index) => (
-        <div key={index} className="flex flex-col items-center justify-center">
-          <div className="bg-white rounded-full p-4">
-            <data.icon className="h-[36px] w-[36px] text-primary" />
-          </div>
-          <h3 className={`${style.samllText} font-medium mt-3`}>{data.title}</h3>
-          <p className="mt-2 text-textWhite font-thin font-poppins text-[14px] w-[230px]">
-            {data.description}
-          </p>
-        </div>
-      ))}
+    <div className={`${style.SocialMediaLinksContainer}`}>
+
+      {
+          socialMediaData.map((data, index) => (
+
+            <div key={index} className={`${style.SocialMediaLinksWrapper}`}>
+
+                <div className={`${style.SocialMediaLinksIconWrapper}`}>
+                    <data.icon className={`${style.SocialMediaLinksIcon}`}/>
+                </div>
+
+                <h3 className={`${style.samllText} font-medium mt-3`}>{data.title}</h3>
+
+                <p className={`${style.SocialMediaLinksDescription}`} >
+                    {data.description}
+                </p>
+            </div>
+      
+    ))}
     </div>
   );
 };

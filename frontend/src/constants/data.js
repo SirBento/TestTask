@@ -15,6 +15,9 @@ import useCase1 from '../assets/useCase1.png';
 import useCase2 from '../assets/useCase2.png';
 import useCase3 from '../assets/useCase3.png';
 import useCase4 from '../assets/useCase4.png';
+import weCut from'../assets/weCut.png';
+import hugly from'../assets/hugly.png';
+import google from'../assets/google.png';
 
 const GettingStartedData = [
   {
@@ -84,17 +87,17 @@ const socialMediaData = [
 
 const testimonyData = [
   {
-    icon: FaYahoo,
+    icon: hugly,
     title: 'Hugly Studio',
     description: 'Hugly Group partners with Hugly Pay to provide its internal applications customers with a fully branded end-to-end payment solution',
   },
   {
-    icon: FaJenkins,
+    icon: weCut,
     title: 'WeCut',
     description: 'WeCut shortens payment times for disbursements, reduces costs, and increases consumer satisfaction with Hugly Send',
   },
   {
-    icon: FcGoogle,
+    icon: google,
     title: 'Google Zimbabwe',
     description: 'Google increases card-on-file (CoF) approval rates 2.5% by updating Hugly Pay accounts in real-time via the Automatic Billing Updater (ABU) API',
   },

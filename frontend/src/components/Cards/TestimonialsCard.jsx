@@ -2,21 +2,25 @@ import React from 'react';
 import { IoChevronForwardOutline } from 'react-icons/io5';
 import style from '../../styles';
 
-const TestimonialsCard = ({ icon: Icon, title, description }) => {
+const TestimonialsCard = ({ icon, title, description }) => {
   return (
-    <div className="rounded-lg p-8 gap-2 hover:bg-hoverbg mt-10">
-      <div className="flex items-center justify-between border-b border-textBlue pb-4">
-        <h3 className="text-[16px] font-bold text-textWhite">{title}</h3>
-        <IoChevronForwardOutline className="text-textRed hover:text-gray-300 cursor-pointer mt-3" size={28} />
-      </div>
-      <p className={`${style.samllText} text-start mt-6 leading-5 text-textWhite font-thin`}>{description}</p>
-      <div className="flex justify-start mt-8 ">
-        <div className="border rounded-full p-4 h-[65px] w-[65px] flex justify-center items-center">
-          {Icon && (
-            <Icon className="h-[33px] w-[33px] text-textBlue" />
-          )}
-        </div>
-      </div>
+    <div className={`${style.TestimonyCardbg}`}>
+
+          <div className={`${style.TestimonyCardBorder}`}>
+
+                <h3 className={`${style.TestimonyCardTitle}`}>{title}</h3>
+                <IoChevronForwardOutline className={`${style.TestimonyCarddForwardOultine}`} size={28} />
+          </div>
+          <p className={`${style.samllText} ${style.TestimonyCardText}`}>{description}</p>
+
+          <div className="flex justify-start mt-8 ">
+            
+                <div className={`${style.TestimonyCardIcon}`}>
+                  {icon && (
+                    <img src={icon} alt={title} className="h-[40px] w-[40px] text-textBlue" />
+                  )}
+                </div>
+          </div>
     </div>
   );
 };
