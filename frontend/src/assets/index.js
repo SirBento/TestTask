@@ -9,5 +9,24 @@ import useCase4 from '../assets/useCase4.png';
 import weCut from'../assets/weCut.png';
 import hugly from'../assets/hugly.png';
 import google from'../assets/google.png';
+import chess from'../assets/chess.jpg';
+import hero from'../assets/hero.jpg';
+import huglyLogo from'../assets/hugly_studio_logo.jpeg';
 
-export {};
+export {
+    
+    seamlessIntegration ,
+    realTimePayment,
+    enhancedPayment, 
+    customizablePayment,
+    useCase1,
+    useCase2,
+    useCase3,
+    useCase4,
+    weCut,
+    hugly,
+    google,
+    chess,
+    hero,
+    huglyLogo
+};
