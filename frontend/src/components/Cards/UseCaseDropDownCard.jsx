@@ -3,7 +3,7 @@ import style from '../../styles';
 
 function UseCaseDropDownCard({ title, content, image, isExpanded, handleToggle }) {
   return (
-    <div className={`${style.UseCaseDropdownCardBroder}`}>
+    <div className={`${style.UseCaseDropdownCardBroder} px-10`}>
       <div
         className={`flex  justify-between items-center cursor-pointer py-4 ${isExpanded ? 'text-textBlue' : 'text-textWhite'}`}
         onClick={handleToggle}>
