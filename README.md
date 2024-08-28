@@ -102,7 +102,8 @@ npm run dev
 ## API Endpoints
 ### User Registration
 - **Endpoint**: `POST /api/v1/register` - **Request Body**:
-```json {
+```json 
+{
 "firstname": "John",
 "surname": "Doe",
 "email": "john.doe@example.com", "idNumber": "123456789",
@@ -115,9 +116,11 @@ npm run dev
 ```
 ### User Login
 - **Endpoint**: `POST /api/v1/login` - **Request Body**:
-```json {
+```json 
+{
 "email": "john.doe@example.com",
-"password": "securePassword123" }
+"password": "securePassword123" 
+}
 ```
 ### Get User Profile
 - **Endpoint**: `GET /api/v1/user`
