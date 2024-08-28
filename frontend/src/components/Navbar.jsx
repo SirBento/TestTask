@@ -49,10 +49,10 @@ function Navbar() {
         </div>
 
         {/* Buttons for login, signup, and logout */}
-        <div className={`flex items-center space-x-2 lg:space-x-6 md:space-x-4  ${menuOpen ? 'flex-col justify-between gap-5 absolute bg-hoverbg mt-16 p-4 rounded-3xl right-0  shadow-lg md:hidden' : 'hidden md:flex'}`}>
-        <div className="flex justify-between md:hidden items-center mb-2">
-            <AiOutlineClose className="cursor-pointer" onClick={() => setMenuOpen(false)} />
-          </div>
+        <div className={`flex items-center space-x-2 lg:space-x-6 md:space-x-4  ${menuOpen ? 'flex-col justify-between gap-5 absolute bg-hoverbg mt-16 p-4 rounded-3xl right-6 top-0  shadow-lg md:hidden' : 'hidden md:flex'}`}>
+          <div className="flex justify-between md:hidden items-center mb-2">
+              <AiOutlineClose className="cursor-pointer" onClick={() => setMenuOpen(false)} />
+            </div>
 
               {
                   isLoggedIn ? (
@@ -62,7 +62,7 @@ function Navbar() {
                   </button>
                 ) : (
                   <>
-                    <Link to="/signin" className={`${style.navbarLoginButton}`}>
+                    <Link to="/signin" className={`${style.navbarLoginButton} `}>
                       <span className="text-[14px] font-poppins">Log In</span>
                       <FaUser size={21} />
                     </Link>

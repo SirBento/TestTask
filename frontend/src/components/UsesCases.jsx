@@ -18,7 +18,7 @@ function UsesCases() {
               <UseCaseTabSection/>
           </div>
 
-          <div>
+          <div >
              <UseCaseDropdownSection />
           </div>
 

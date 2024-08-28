@@ -1,14 +1,14 @@
 const style = {
 
-
   //CARDS
 
-  /** BenefitsCard */
-  benefitsCardbg: "shadow-lg rounded-xl p-5 bg-secondary w-full md:w-[340px] hover:bg-hoverbg",
-  benefitsCardBorder: "flex w-full md:mr-2 flex-row justify-center items-center border-b border-borderBlue",
-  benefitsCardIcon: "h-[22px] w-[26px] text-blue ml-7",
-  benefitsCardSpan: "-mt-3 md:-mt-3 md:ml-2 ml-2",
-  benefitsCardDescription: "text-start mt-6 text-textWhite font-thin text-[14px] md:text-[16px]",
+/** BenefitsCard */
+benefitsCardbg: "shadow-lg rounded-xl p-5 bg-secondary w-full md:w-[340px] hover:bg-hoverbg",
+benefitsCardBorder: "flex w-full md:mr-2 flex-row justify-center items-center border-b border-borderBlue",
+benefitsCardIcon: "h-[22px] w-[26px] text-blue ml-7",
+benefitsCardSpan: "-mt-3 md:-mt-3 md:ml-2 ml-2",
+benefitsCardDescription: "text-start mt-6 text-textWhite font-thin text-[14px] md:text-[16px]",
+
 
 /** GettingStartedCard **/
 GettingStartedCardbg: "rounded-lg py-2 px-4 md:px-6",
@@ -19,45 +19,45 @@ GettingStartedCardRightOultine: "h-[20px] w-[20px] text-gray-400 hover:text-text
 
 
 
+/** TestimonyCard */
 
-   /** TestimonyCard */
-
-   TestimonyCardbg: "rounded-lg p-8 gap-2 hover:bg-hoverbg mt-10",
-   TestimonyCardBorder: "flex items-center justify-between border-b border-textBlue pb-4",
-   TestimonyCardTitle: "text-[16px] md:text-[18px] font-bold text-textWhite",
-   TestimonyCardText: "text-start mt-6 leading-5 text-textWhite font-thin w-full md:w-[356px]",
-   TestimonyCardIcon: "border rounded-full p-4 h-[70px] w-[70px] flex justify-center items-center",
-   TestimonyCarddForwardOultine: "text-textRed hover:text-gray-300 cursor-pointer mt-3",
+TestimonyCardbg: "rounded-lg p-8 gap-2 hover:bg-hoverbg mt-10",
+TestimonyCardBorder: "flex items-center justify-between border-b border-textBlue pb-4",
+TestimonyCardTitle: "text-[16px] md:text-[18px] font-bold text-textWhite",
+TestimonyCardText: "text-start mt-6 leading-5 text-textWhite font-thin w-full md:w-[356px]",
+TestimonyCardIcon: "border rounded-full p-4 h-[70px] w-[70px] flex justify-center items-center",
+TestimonyCarddForwardOultine: "text-textRed hover:text-gray-300 cursor-pointer mt-3",
 
 
- /** UseCaseDropDownCard */
- UseCaseDropdownCardBroder: "border-b border-dimBlue last:border-b-0 pb-4 md:w-[1080px] sm:w-[320px] w-full",
- UseCaseDropdownCardTitle: "text-[14px] md:text-[16px] font-medium font-poppins hover:text-textBlue",
- UseCaseDropdownCardContent: "flex text-[14px] md:text-[16px] font-light font-poppins w-full md:w-[730px] text-start text-textWhite",
- UseCaseDropdownCardContentWrapper: "flex items-start flex-col md:flex-row justify-between",
+/** UseCaseDropDownCard */
+UseCaseDropdownCardBroder: "border-b border-dimBlue last:border-b-0 pb-4 md:w-[1080px] sm:w-[640px] w-full",
+UseCaseDropdownCardTitle: "text-[14px] md:text-[16px] font-medium font-poppins hover:text-textBlue",
+UseCaseDropdownCardContent: "flex text-[14px] md:text-[16px] font-light font-poppins w-full md:w-[730px] w-full text-start text-textWhite",
+UseCaseDropdownCardContentWrapper: "flex items-start flex-col md:flex-row justify-between",
+
 
 /** UseCaseDropDownTabCard */
-UseCaseDropdownTabCardbg: "bg-primary rounded-b-lg p-4",
-UseCaseDropdownTabCardImg: "w-full h-48 object-cover rounded-t-lg",
-UseCaseDropdownTabCardContent: "text-textWhite font-poppins font-thin  text-[14px] sm:text-[14px] md:text-[16px] text-left",
+UseCaseDropdownTabCardbg: "bg-primary rounded-b-lg p-4 w-full ",
+UseCaseDropdownTabCardImg: "w-full h-40 object-cover rounded-t-lg",
+UseCaseDropdownTabCardContent: "text-textWhite font-poppins font-thin text-[14px] sm:text-[14px] md:text-[16px] text-left sm:text-center md:text-left ",
 UseCaseDropdownTabCardBorder: "border-b border-borderBlue pb-1 mb-2",
-UseCaseDropdownTabCardTitle: "text-[18px] md:text-[20px] font-medium",
-UseCaseDropdownTabCardWrapper: "flex justify-between items-center",
+UseCaseDropdownTabCardTitle: "text-[18px] md:text-[20px] font-poppins font-bold",
+UseCaseDropdownTabCardWrapper: "flex justify-between items-center text-center",
 
 // SECTIONS
 
 /** useCaseTabSection */
 useCaseTabSectionbg: "bg-primary text-white p-8 rounded-3xl",
-useCaseTabSectionLink: "text-textBlue flex items-center hover:underline font-poppins font-thin text-[14px] md:text-[16px]",
+useCaseTabSectionLink: "text-textBlue flex items-center hover:underline font-poppins font-thin sm:text-[10px] md:text-[16px]",
 useCaseTabSectionWrapper: "max-w-5xl mx-auto",
-useCaseTabSectionCardWrapper: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-6",
+useCaseTabSectionCardWrapper: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-8 mt-6",
 
 
-  //COMPONENTS
+//COMPONENTS
 
 
- /** Navbar **/
-navbarContainer: "text-textWhite fixed top-0 left-0 right-0 z-10 py-4",
+/** Navbar **/
+navbarContainer: "text-textWhite fixed top-0 left-0 right-0 z-10 py-4 md:px-0 lg:px-0 px-8",
 navbarWrapper: "container mx-auto flex justify-between items-center h-20 p-2",
 navbarIconWrapper: "flex items-center",
 navbarLogo: "w-12 h-12 mr-2 rounded-full",
@@ -80,34 +80,33 @@ gettingStatedText: "w-full md:w-[420px] text-center mt-5 font-light leading-7 te
 gettingStatedCardWrapper: "flex flex-col justify-between md:flex-row gap-[18px] mt-9 w-full p-2",
 
 
-  /** Hero **/
-  heroWrapper: "relative w-full h-[600px] rounded-3xl overflow-hidden mt-20 md:h-[500px] sm:h-[400px]",
-  heroGradient: "absolute inset-0 bg-gradient-to-b from-[rgba(0,0,0,0.3)] to-[rgba(0,0,0,0.7)]",
-  heroImagebg: "absolute inset-0 bg-[url('src/assets/hero.jpg')] bg-no-repeat bg-cover object-cover",
-  heroContentWrapper: "absolute inset-0 flex flex-col justify-end items-start text-white z-10 w-full max-w-[640px] mb-10 pl-10 pr-5",
-  heroTextWrapper: "w-full max-w-[540px] text-left",
-  heroHeadingText: "text-[45px] font-bold mb-4 text-[32px] sm:text-[36px]",
-  heroDescription: "text-[16px] mb-8 leading-7 text-[14px] sm:text-[15px]",
-  heroButtonWrapper: "flex flex-col sm:flex-row gap-3",
-  heroLearnMoreButton: "flex items-center justify-center",
-  heroContactsButton: "flex items-center justify-center",
+/** Hero **/
+heroWrapper: "relative w-full h-[600px] rounded-3xl overflow-hidden mt-20 md:h-[500px] sm:h-[400px]",
+heroGradient: "absolute inset-0 bg-gradient-to-b from-[rgba(0,0,0,0.3)] to-[rgba(0,0,0,0.7)]",
+heroImagebg: "absolute inset-0 bg-[url('src/assets/hero.jpg')] bg-no-repeat bg-cover object-cover",
+heroContentWrapper: "absolute inset-0 flex flex-col justify-end items-start text-white z-10 w-full max-w-[640px] mb-10 pl-10 pr-5",
+heroTextWrapper: "w-full max-w-[540px] text-left",
+heroHeadingText: "md:text-[45px] font-bold md:mb-4 text-[32px] sm:text-[24px]",
+heroDescription: "text-[16px] mb-8 leading-6 text-[14px] sm:text-[15px]",
+heroButtonWrapper: "flex flex-col sm:flex-row sm:gap-2 gap-3",
 
-   //Learn More button
-   heroLearnMoreButton:"text-dimBlue lg:inline-block bg-lightBlue rounded-xl py-3 px-7 hover:bg-textBlueSecond hover:text-black font-poppins h-[46px] ml-3 font-medium",
-   heroLearnMoreButtonBorder:"flex items-center justify-between flex-row font-poppins text-borderBlue",
-   heroLearnMoreButtonText: "ml-2 text-[14px] mr-1 font-poppins font-thin",
 
-   //Contacts Button
-   heroContactsButton: "lg:inline-block hover:text-black font-poppins h-[46px] ml-3 font-medium bg-transparent hover:bg-borderBlue text-white py-3 px-6 rounded-lg border items-center justify-center",
-   heroContactsButtonText: "ml-2 text-[14px] mr-1 font-poppins text-center",
+//Learn More button
+heroLearnMoreButton:" flex items-center justify-center text-dimBlue lg:inline-block bg-lightBlue rounded-xl py-3 px-7 hover:bg-textBlueSecond hover:text-black font-poppins h-[46px] ml-3 font-medium",
+heroLearnMoreButtonBorder:"flex items-center justify-between flex-row font-poppins text-borderBlue",
+heroLearnMoreButtonText: "ml-2 text-[14px] mr-1 font-poppins font-thin",
 
+//Contacts Button
+heroContactsButton: " flex items-center justify-center lg:inline-block hover:text-black font-poppins h-[46px] ml-3 font-medium bg-transparent hover:bg-borderBlue text-white py-3 px-6 rounded-lg border items-center justify-center",
+heroContactsButtonText: "ml-2 text-[14px] mr-1 font-poppins text-center",
 
 
 
-   /** UseCases **/
-  useCasesbg: "bg-secondary flex flex-col justify-center items-center rounded-3xl mt-10 p-4 md:p-8",
-  useCasesRedText: "text-textRed font-poppins text-[14px] md:text-[16px] mt-5 font-medium",
-  useCasesDescriptionText: "w-full md:w-[420px] text-center mt-6 font-light leading-7 text-[14px] sm:text-[16px]",
+
+/** UseCases **/
+useCasesbg: "bg-secondary flex flex-col justify-center items-center rounded-3xl mt-10 p-4 md:p-8",
+useCasesRedText: "text-textRed font-poppins text-[14px] md:text-[16px] mt-5 font-medium",
+useCasesDescriptionText: "w-full md:w-[420px] text-center mt-6 font-light leading-7 text-[14px] sm:text-[16px]",
 
 
 

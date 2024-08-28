@@ -5,7 +5,7 @@ function UseCaseDropDownCard({ title, content, image, isExpanded, handleToggle }
   return (
     <div className={`${style.UseCaseDropdownCardBroder}`}>
       <div
-        className={`flex justify-between items-center cursor-pointer py-4 ${isExpanded ? 'text-textBlue' : 'text-textWhite'}`}
+        className={`flex  justify-between items-center cursor-pointer py-4 ${isExpanded ? 'text-textBlue' : 'text-textWhite'}`}
         onClick={handleToggle}>
         <h3 className={`${style.UseCaseDropdownCardTitle}`}>
           {title}
@@ -24,7 +24,7 @@ function UseCaseDropDownCard({ title, content, image, isExpanded, handleToggle }
               <p>{content}</p>
             </div>
             <div>
-                <img src={image}alt={title} className="w-[300px] h-[200px] rounded-3xl"/>
+                <img src={image}alt={title} className="w-[300px] h-[200px] rounded-3xl mt-4"/>
             </div>
         </div>
       )}
