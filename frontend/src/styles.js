@@ -30,7 +30,7 @@ TestimonyCarddForwardOultine: "text-textRed hover:text-gray-300 cursor-pointer m
 
 
 /** UseCaseDropDownCard */
-UseCaseDropdownCardBroder: "border-b border-dimBlue last:border-b-0 pb-4 md:w-[1080px] sm:w-[700px] lg:w-[1000px] w-6/6",
+UseCaseDropdownCardBroder: "border-b border-dimBlue last:border-b-0 pb-4 md:w-[1080px] sm:w-[700px] lg:w-[1080px] w-6/6",
 UseCaseDropdownCardTitle: "text-[14px] md:text-[16px] font-medium font-poppins hover:text-textBlue",
 UseCaseDropdownCardContent: "flex text-[14px] md:text-[16px] font-light font-poppins w-full md:w-[730px] w-full text-start text-textWhite",
 UseCaseDropdownCardContentWrapper: "flex items-start flex-col md:flex-row justify-between",
