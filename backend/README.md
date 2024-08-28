@@ -53,14 +53,16 @@ mvn clean install ```
 3. Run the application:
 
  ```bash
-mvn spring-boot:run ```
+mvn spring-boot:run
+```
+
 ### Testing
 You can test the API endpoints using tools like Postman or cURL. Ensure to set the appropriate headers and request bodies as specified.
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
+
 ### Adjustments Made
 - Maven commands are specified for building and running the application.
 - The structure remains clear and informative, making it easy for users to understand how to use the project.
