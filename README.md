@@ -19,7 +19,7 @@ The Hugly Developer Portal is a comprehensive web application designed for devel
 - **Responsive Design**: Optimized for both desktop and mobile views.
 - **Dynamic Navigation**: Navigation adapts based on authentication status.
 - **Toast Notifications**: User feedback messages using `react-toastify`.
-- **Profile Management**: Easy access to view and edit user profiles.
+
 
 ## Technologies Used
 
